@@ -1,0 +1,8 @@
+:root{--cordefundo :#3691b6;
+--cor2 : #70ade9;}
+
+body{background-color: var(--cordefundo);}
+
+h1{background-color: var(--cor2);
+
+color:aliceblue;}
