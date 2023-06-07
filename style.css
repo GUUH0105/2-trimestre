@@ -1,7 +1,7 @@
 @import url(./header.css);
 
-:root{--cordefundo :#3691b6;
---cor2 : #70ade9;}
+:root{--cordefundo :#EBECEE;
+--branco: #FFFFFF;}
 
 body{background-color: var(--cordefundo);}
 
