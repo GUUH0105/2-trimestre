@@ -21,4 +21,9 @@ padding: 1em;
 
 }
 
-
+.lista-Menu{
+display: none;
+}
+.conteiner__botao :checked ~ .lista-Menu{
+    display: block;
+}
