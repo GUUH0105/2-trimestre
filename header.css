@@ -53,7 +53,9 @@ background-color: var(--branco);
     text-transform:uppercase;
 }
 
-
+.conteiner__botao{
+    display: none;
+}
 
 
 
