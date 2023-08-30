@@ -105,7 +105,7 @@
   <div class="card__descriçâo">
     <div class="descriçâo">
       <h3 class="descriçâo__titulo"> Talvez voçẽ também se interesses por ...</h3>
-      <h2 class="descriçâo__titulo-livro">Angulo 11 e Firebase</h2>
+   <h2 class="descriçâo__titulo-livro">Angulo 11 e Firebase</h2>
       <p class="descriçâo__texto">Construindo uma aplicação integrada com a plataforma google</p>
     </div>
     <img src="./Angular 11.svg" class="desecriçâo__imagem">
@@ -120,10 +120,102 @@
 </div>
 
 </section>
+<section class="carrossel">
+  <h2 class="carrossel__titulo"> Mais vendidos </h2>
+  
+  <!-- Slider main container -->
+  <div class="swiper">
+    <!-- Additional required wrapper -->
+  
+  <!-- If we need pagination -->
+  <div class="swiper-pagination"></div>
+  
+    <div class="swiper-wrapper">
+      <!-- Slides -->
+      <div class="swiper-slide"><img src="./ApacheKafka.svg" alt="Livro sobre apache Kafka"></div>
+
+      <div class="swiper-slide"><img src="./Javascript.svg" alt="Livro sobre Javascript"></div>
+
+      <div class="swiper-slide"><img src="./Acessibilidade.svg" alt="Livro sobre Acessibilidade"></div>
+
+      <div class="swiper-slide"><img src="./Angular.svg" alt="Livro sobre Angular"></div>
+
+      <div class="swiper-slide"><img src="./Arquitetura.svg" alt="Livro sobre Arquitetura"></div>
+
+      <div class="swiper-slide"><img src="./Tuning.svg" alt="Livro sobre Tuning"></div>
+
+      <div class="swiper-slide"><img src="./UX.svg" alt="Livro sobre UX"></div>
+
+    </div>
+    
+  
+    <!-- If we need navigation buttons -->
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
+  
+  </div>
+  <div class="card">
+    <div class="card__descriçâo">
+      <div class="descriçâo">
+        <img src="./Estrelinhas.svg" alt="">
+        <h3 class="descriçâo__titulo"> Autora do mês </h3>
+     <h2 class="descriçâo__titulo-livro">Angulo 11 e Firebase</h2>
+        <p class="descriçâo__texto">Construindo uma aplicação integrada com a plataforma google</p>
+      </div>
+      <img src="./Perfil-escritora 1.svg" class="desecriçâo__imagem">
+    </div>
+    <div class="card__botões">
+  <ul class="botões">
+  <li class="botões__item"> <img src="./Favoritos.svg" alt="Favoritos"></li>
+  <li class="botões__item"><img src="./Compras.svg" alt="carrinho de Compras"></li>
+  </ul>
+  <a href="#" class="botões__ancora-escritora">Saiba mais</a>
+    </div>
+  </div>
+  
+  </section>
+  <section class="Topicos">
+    <h2 class="Topicos__titulo">TÓPICOS VISITADOS RECENTEMENTE</h2>
+    <ul class="Topicos__lista">
+
+<li class="Topicos__item">
+  <a href="#" class="Topicos__link">Android</a>
+</li>
+
+<li class="Topicos__item">
+  <a href="#" class="Topicos__link">Markenting Digital</a>
+</li>
+
+<li class="Topicos__item">
+  <a href="#" class="Topicos__link">Agile</a>
+</li>
+
+<li class="Topicos__item">
+  <a href="#" class="Topicos__link">Startups</a>
+</li>
+
+<li class="Topicos__item">
+  <a href="#" class="Topicos__link">HTML e CSS</a>
+</li>
+
+<li class="Topicos__item">
+  <a href="#" class="Topicos__link">Python</a>
+</li>
+
+<li class="Topicos__item">
+  <a href="#" class="Topicos__link">OO</a>
+</li>
+
+<li class="Topicos__item">
+  <a href="#" class="Topicos__link">Java</a>
+</li>
+
+    </ul>
+
+  </section>
 
 <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
 <script>
-
 const swiper = new Swiper('.swiper', {
   spaceBetween: 10,
   slidesPerView: 3,
